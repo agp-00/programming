@@ -6,7 +6,7 @@ public class calculadora {
             System.out.println("Qué desea hacer");
             System.out.println("1. Suma 2. Resta 3. Multiplicación 4. División");
             int elec = operador.nextInt();
-            while (elec>=1 && elec<=4) {
+            if (elec>=1 && elec<=4) {
             if (elec==1) {
                 System.out.println("Elige el primer número que sumar");
                 double i = operador.nextDouble();
@@ -14,7 +14,6 @@ public class calculadora {
                 double i2 = operador.nextDouble();
                 double i3 = i + i2;
                 System.out.println("La suma de los dos números és " + i3);
-                break;
             } else if (elec==2) {
                 System.out.println("Elige el primer número que restar");
                 double i = operador.nextDouble();
@@ -22,7 +21,6 @@ public class calculadora {
                 double i2 = operador.nextDouble();
                 double i3 = i - i2;
                 System.out.println("La resta de los dos números és " + i3);
-                break;
             } else if (elec==4) {
                 System.out.println("Elige el dividendo");
                 double i = operador.nextDouble();
@@ -30,7 +28,6 @@ public class calculadora {
                 double i2 = operador.nextDouble();
                 double i3 = i / i2;
                 System.out.println("La división de los dos números és " + i3);
-                break;
             } else if (elec==3) {
                 System.out.println("Elige el número que multiplicar");
                 double i = operador.nextDouble();
@@ -38,10 +35,8 @@ public class calculadora {
                 double i2 = operador.nextDouble();
                 double i3 = i * i2;
                 System.out.println("La multiplicación de los dos números és " + i3);
-                break;
             } else {
                 System.out.println("Ha ocurrido un error, vuelva a intentarlo");
-                break;
             }
         }
         }
