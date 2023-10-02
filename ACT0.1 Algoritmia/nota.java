@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class nota {
     public static void main(String args[]) {
     boolean a = false;
-        try (Scanner nota = new Scanner(System.in)) {
+        Scanner nota = new Scanner(System.in); {
             {
                 while (a == false) {
                 System.out.println("Introduce la nota del alumno:");
