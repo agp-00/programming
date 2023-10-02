@@ -18,13 +18,13 @@ public class caracter {
      //frase1.length para que el bucle termine en cuanto i sea igual a la longitud de la frase introducida
      //i++ para que al terminar el bucle sume 1 a la variable i y vuelva a hacer la comprobacion
     for (int i = 0; i < frase1.length(); i++) {
+        //if frase1 para que sea la frase que ha guardado el scanner, charAt(i) = el numero de caracter por el que va comprobando
         //Si la frase contiene una X o una x dejará de recorrer la frase
         //importante poner esto antes de la comprobacion de caracteres para que deje de contar antes
         if (frase1.charAt(i) == 'X' || frase1.charAt(i) == 'x') {
             break;
-        }
-        /* if frase1 para que sea la frase que ha guardado el scanner, charAt(i) = el numero de caracter por el que va comprobando 
-         * == ocurrencia para comprobar que sea una l minuscula el caracter que esta mirando
+        }  
+        /* == ocurrencia para comprobar que sea una l minuscula el caracter que esta mirando
          * && se usa como 'and'
          * (i+1) para que que al encontrar una l compruebe si el siguiente caracter es una a, luego || que significa 'or' y lo mismo con A
          * count++ para que en caso de encontrar un resultado sume 1 a las veces que ha encontrado algo
