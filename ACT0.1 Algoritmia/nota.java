@@ -31,7 +31,6 @@ public class nota {
                         int i2 = nota.nextInt();
                         if (i2 == 2) {
                             a = true;
-                            break;
                         }
                 } 
             }
