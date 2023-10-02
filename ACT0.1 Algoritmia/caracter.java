@@ -10,10 +10,12 @@ public class caracter {
     int count = 0;
      
     for (int i = 0; i < frase1.length(); i++) {
-        if (frase1.charAt(i) == 'X') {
+        if (frase1.charAt(i) == 'X' || frase1.charAt(i) == 'x') {
             break;
         }
-        if (frase1.charAt(i) == ocurrencia && frase1.charAt(i+1) == 'a') {
+        if (frase1.charAt(i) == ocurrencia && frase1.charAt(i+1) == 'a' || frase1.charAt(i+1) == 'A') {
+            count++;
+        } else if (frase1.charAt(i) == 'L' && frase1.charAt(i+1) == 'a' || frase1.charAt(i+1) == 'A') {
             count++;
         }
     }
