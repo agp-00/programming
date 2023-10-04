@@ -34,6 +34,8 @@ public class caracter {
         } else if (frase1.charAt(i) == ocurrencia2 && frase1.charAt(i+1) == 'a' || frase1.charAt(i+1) == 'A') {
             count++;
         }
+        //cerramos el scanner para dar por terminado el programa
+        frase.close();
     }
     System.out.println("La ocurrencia 'la' se repite " + count + " veces.");
    }

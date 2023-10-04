@@ -14,7 +14,6 @@ public class arrayburbuja {
             }
         }
 
-        // Muestra el array ordenado
         System.out.println("Array ordenado:" + Arrays.toString(array));
     }
 }

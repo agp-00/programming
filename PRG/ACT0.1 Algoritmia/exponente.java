@@ -9,6 +9,7 @@ public class exponente {
             int num2 = numero.nextInt();
             double num3 = Math.pow(num, num2);
             System.out.println("El resultado es " + num3);
+        numero.close();
         }
     }
 }

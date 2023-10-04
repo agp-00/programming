@@ -7,6 +7,7 @@ public class temperatura {
                 System.out.println("¿Qué tipo de conversión desea realizar?");
                 System.out.println("1.Celsius a Fahrenheit 2.Fahrenheit a Celsius");
                 int temp = temperatura.nextInt();
+                
                 if (temp == 1) {
                     System.out.println("Introduce la temperatura en Celsius");
                     double C = temperatura.nextDouble();  
@@ -18,7 +19,7 @@ public class temperatura {
                     double i3 = ((F - 32) * 5/9);
                     System.out.println("La temperatura en Fahrenheit es " + i3 + " grados Celsius");
                 }
-
+                temperatura.close();
             }
         }
     }
