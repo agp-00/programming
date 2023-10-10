@@ -11,24 +11,28 @@ public class nota {
                 System.out.println("Introduce la nota del alumno:");
                 float i = nota.nextFloat();
                 
+                if (i>10) {
+                    System.out.println("Introduce una nota válida");
+                    break;
+                }          
                 if (i>=5) {
-                    System.out.println("El alumno ha aprobado");
+                    System.out.print("El alumno ha aprobado ");
                 } else {
-                    System.out.println("El alumno ha suspendido");
+                    System.out.print("El alumno ha suspendido ");
                 }
                     
                 if (i <= 2.99) {
-                    System.out.println("Ha conseguido un Muy deficiente");
+                    System.out.println("y ha conseguido un Muy deficiente");
                 } else if (i < 5) {
-                    System.out.println("Ha conseguido un Insuficiente");
+                    System.out.println("y ha conseguido un Insuficiente");
                 } else if (i <= 5.99) {
-                System.out.println("Ha conseguido un Suficiente");
+                System.out.println("y ha conseguido un Suficiente");
                 } else if (i <= 6.99) {
-                    System.out.println("Ha conseguido un Bien");
+                    System.out.println("y ha conseguido un Bien");
                 } else if (i <= 8.99) {
-                    System.out.println("Ha conseguido un Notable");
+                    System.out.println("y ha conseguido un Notable");
                 } else if (i <= 10) {
-                    System.out.println("Ha conseguido un Sobresaliente");
+                    System.out.println("y ha conseguido un Sobresaliente");
                 }
                 
                 System.out.println("¿Desea comprobar otra nota?");
@@ -39,8 +43,8 @@ public class nota {
                     a = true;
                     nota.close();
                 }
-
+                }
+            
             } 
         }
     }
-}
