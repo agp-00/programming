@@ -1,0 +1,78 @@
+body {
+    --backgroundPrincipal: #000000;
+    --colorTexto: #FFFFFF;
+}
+/* Estils generals de la pàgina */
+body{
+    background-color:#111313;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Estils general de la taula */
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+/* Estils de la capçalera de la taula */
+thead tr th{
+    border-bottom: solid 1px #273030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th{
+    background-color: #092424;
+    text-align: left;
+}
+.th-col-1{
+    width: 40px;
+}
+
+/* Estils de fila album */
+tbody tr:hover{
+    background-color: #273030;
+}
+td{
+    line-height: 30px;
+    color:#b3b3b3;
+    font-weight: bolder;
+    /* border:solid 1px white;  */
+}
+.number{
+    text-align: center;
+    color:white;
+}
+.cover-album{
+    width: 80px;
+}
+.album{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color:white;
+    text-transform: capitalize;
+}
+.album span{
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+    color:#9e9e9e;
+}
+
+.album:hover{
+    color: #25e845;
+    cursor: pointer;
+}
+.number:hover{
+    color: #25e845;
+    cursor: pointer;
+}
+.album span:hover{
+    color: #25e845;
+    cursor: pointer;
+}
+.long:hover{
+    color: #25e845;
+    cursor: pointer;
+}
