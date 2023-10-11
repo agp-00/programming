@@ -11,7 +11,7 @@ public class arrayburbuja {
                     array[j] = array[j+1];
                     array[j+1] = temp;
                 }
-            }
+            } //hola
         }
 
         System.out.println("Array ordenado:" + Arrays.toString(array));
