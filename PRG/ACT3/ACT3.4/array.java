@@ -1,4 +1,3 @@
-package PRG.prueba;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -24,7 +23,6 @@ public class array {
                 Arrays.sort(array);
                 System.out.println("El valor mínimo del array es " + array[0]);
                 System.out.println("El valor máximo del array es " + array[N-1]);
-                double j;
             }
         }
         

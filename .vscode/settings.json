@@ -1,8 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "PRG/ACT3.3",
-        "PRG/ACT3.2",
-        "PRG/ACT3.1",
-        ""
-    ]
+        "PRG/ACT3/ACT3.4",
+        "PRG/ACT3/ACT3.3",
+        "PRG/ACT3/ACT3.2",
+        "PRG/ACT3/ACT3.1",
+        "PRG/ACT4"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
