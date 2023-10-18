@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding:10px 0 0 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    margin:auto;
+    max-width: 90vw;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border-bottom: 1px solid #dfdfdf;
+    min-width: 40px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:0;
+}
+
+#title-pilot{
+    background:#000 url(../img/bg-title-pilot.png) no-repeat top left;
+    background-size:contain;
+    color:white;
+}
+
+caption{
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 20px;
+    font-family: Geneva, Verdana, Tahoma, sans-serif;
+    color:#f80056;
+    background-color: #f6ba10;
+    border-bottom:3px solid #f80056;
+
+}
+.country{
+    width: 20px;
+    background-color: #4c4c4c;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    /* writing-mode: vertical-lr; */
+
+}
+.country img{
+    width: 20px;
+}
+.circuit{
+    background-color:#303030;
+    text-align: center;
+}
+.circuit img{
+    width:60px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fcf5e5;
+}
+
+/* tbody td:nth-child(even) {
+    background: #fcf5e5;
+} */
+
+.pilot-name{
+    color:#085fc9;
+    font-weight: bolder;
+    min-width: 200px;
+    text-align: left;
+    padding-top: 7px;
+}
+.pilot-img{
+    width: 70%;
+}
+.pilot-td{
+    vertical-align: bottom;
+}
+
+.points-title{
+    transform: rotate(-90deg);
+    
+}
+.points-pilot{
+   background-color: black;
+   color:white;
+   font-weight: normal;
+   letter-spacing: 2px;
+   font-family: Impact, sans-serif;
+}
+
+
+.pilot-escuderia{
+    color:#fd8409;
+    padding-left:40px;
+    padding-bottom:10px;
+}
+.esc-mercedes{
+    background: url(../img/cars/mercedes.png) no-repeat top left;
+    background-size: 80px;
+}
+.esc-redbull{
+    background: url(../img/cars/alpine.png) no-repeat top left;
+    background-size: 80px;
+}
+.esc-mclaren{
+    background: url(../img/cars/mclaren.png) no-repeat top left;
+    background-size: 80px;
+}
+.esc-ferrari{
+    background: url(../img/cars/ferrari.png) no-repeat top left;
+    background-size: 80px;
+}
+.esc-alpha{
+    background: url(../img/cars/alpha-taruri.png) no-repeat top left;
+    background-size: 80px;
+}
+
+.esc-alpine{
+    background: url(../img/cars/alpine.png) no-repeat top left;
+    background-size: 80px;
+}
+
+.position{
+    width: 50px;
+    
+}
+.position-win{
+    color:white;
+    font-weight: bold;
+    background: rgb(44,48,52);
+    /* background: linear-gradient(47deg, rgba(44,48,52,1) 0%, rgba(44,48,52,1) 58%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%);  */
+    width: 50px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
