@@ -42,6 +42,7 @@ public class calculadora {
                     System.out.println("Ha ocurrido un error, vuelva a intentarlo");
                 }
                 operador.close();
+                //para que veas
             }
         }
     }
